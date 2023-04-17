@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(79, 128, 227);
+  color: black;
+}
+
+p {
+  font-size: 44px;
+}
+
+@media screen and (max-width: 900px) {
+  p {
+    font-size: 13px;
+  }
+}
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header h2 {
+  color: whitesmoke;
+  font-size: 44px;
+}
+header nav {
+  padding: 10px;
+}
+header nav a {
+  list-style-type: none;
+  font-size: 13px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+div p {
+  font-size: 21px;
+}
+
+.map h4 {
+  margin-top: 55px;
+  font-size: 33px;
+}
+@media screen and (max-width: 900px) {
+  .map {
+    font-size: 55px;
+  }
+}
+
+button:hover {
+  color: red;
+  font-size: 12px;
+}
+
+.mix {
+  border: 2px solid green;
+  font-size: 22px;
+  justify-content: center;
+  flex-direction: column;
+}
+.mix h3:hover {
+  color: pink;
+  width: 13px;
+}
+
+extend, .link {
+  display: flex;
+  text-align: center;
+  background-color: black;
+}
+extend a, .link a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 0 22px;
+}
+
+alert, .link {
+  font-size: 44px;
+  margin: 33px;
+}/*# sourceMappingURL=style.css.map */

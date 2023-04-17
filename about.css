@@ -1,0 +1,12 @@
+body{background-color: black;
+color: white;
+
+}
+
+@import '_common.scss';
+
+
+button
+{
+    @exclude .button;
+}
